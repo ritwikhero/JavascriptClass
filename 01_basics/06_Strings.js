@@ -1,6 +1,6 @@
-let name = "Ritwik";
+const name = "Ritwik";
 
-let repoCount = 26;
+const repoCount = 26;
 
 //old way ------
 // console.log("My name is "+name+" and my repoCout is "+repoCount);
