@@ -1,0 +1,10 @@
+let name = "Ritwik";
+
+let repoCount = 26;
+
+//old way ------
+// console.log("My name is "+name+" and my repoCout is "+repoCount);
+
+//new / better way
+
+console.log(`My name is ${name} and my repoCount is ${repoCount}`);
