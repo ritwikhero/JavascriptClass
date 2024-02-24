@@ -28,3 +28,6 @@ console.log(anotherString);
 const s = "              ritwik               ";
 console.log(s);
 console.log(s.trim());
+
+const url = "https:/www.ritwik.com%20/abcd"
+console.log(url.replace("%","-"));
