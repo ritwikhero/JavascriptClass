@@ -31,3 +31,4 @@ console.log(s.trim());
 
 const url = "https:/www.ritwik.com%20/abcd"
 console.log(url.replace("%","-"));
+console.log(url.includes("ritwik"));
