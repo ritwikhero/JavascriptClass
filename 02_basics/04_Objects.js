@@ -45,3 +45,6 @@ console.log(Object.keys(tUser));
 console.log(Object.values(tUser));
 console.log(Object.entries(tUser));
 console.log(Object.hasOwnProperty("isLoggedIn"));
+
+
+//de-structure objects
