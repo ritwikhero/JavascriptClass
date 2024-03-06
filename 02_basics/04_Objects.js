@@ -48,4 +48,11 @@ console.log(Object.hasOwnProperty("isLoggedIn"));
 
 
 //de-structure objects
-//start
+const course = {
+    courseName : "JS course",
+    price : "999",
+    courseTacher : "Ritwik"
+}
+
+const {courseTacher : teacher} = course;
+console.log(teacher);
