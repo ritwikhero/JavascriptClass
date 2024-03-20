@@ -18,3 +18,6 @@ console.log(c);
 
 //var is avoid as it violates scope
 
+function  one(){
+    
+}
