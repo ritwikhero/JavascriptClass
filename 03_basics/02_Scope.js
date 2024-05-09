@@ -18,15 +18,41 @@
 
 //var is avoid as it violates scope
 
-function one(){
-    const username = "Ritwik";
+// function one(){
+//     const username = "Ritwik";
 
-    function two(){
-        const website = "Youtube";
-        console.log(username);
-    }
-    // console.log(website);
+//     function two(){
+//         const website = "Youtube";
+//         console.log(username);
+//     }
+//     // console.log(website);
 
-    // two(); 
+//     // two(); 
+// }
+// one();
+
+// if(true){
+//     const username = "Ritwik";
+//     if(username === "Ritwik"){
+//         const website = "Youtube";
+//         console.log(username + website);
+//     }
+//     console.log(website);
+// }
+// console.log(username);
+
+
+// ------------------ Interesting -----------------------------------------------
+
+
+function addOne(num){
+    return num+1;
 }
-one();
+
+console.log(addOne(5));
+
+const addTwo = function(num){
+    return num+2;
+}
+
+console.log(addTwo(5));
